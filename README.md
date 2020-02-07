@@ -12,9 +12,9 @@ git clone https://github.com/aravindha1234u/AndroidAutoMessageBot
 The Bot Required Browser Driver.
 
 * If already installed then skip,
-
-type chmod +x geckodriver.sh
 ```
+type chmod +x geckodriver.sh
+
 run './geckodriver.sh' or 'sh geckodriver.sh'
 ```
 
@@ -41,7 +41,7 @@ sudo pip3 install selenium
 ```
 ## Setup:
 
-Edit the **Automessage.py** file according to your needs. 
+Edit the **Automessage.py** file according to your needs.
 
 Add the contact names to whom you wish to send the message in ```names```(Tuple) variable of **Line 10**.
 
@@ -74,5 +74,5 @@ AndroidMessageBot is licensed under the GNU GPL license. take a look at the [LIC
 ## Version
 **Current version is 1.1**
 
-## Forked by 
+## Forked by
 **Aravindha1234u**

@@ -5,7 +5,7 @@ from chatterbot import ChatBot
 
 def Main():
 
-    Contact = 'Camillus'
+    Contact = ''
 
     driver = webdriver.Firefox()
 

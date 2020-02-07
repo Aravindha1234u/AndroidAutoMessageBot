@@ -67,3 +67,315 @@ JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1581003735656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile26kPgb"
+1581003736642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581003736643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581003736643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581003736643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581003740951	Marionette	INFO	Listening on port 42553
+1581003740979	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4906, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1581005493374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilena4kyU"
+1581005494159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581005494159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581005494160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581005494160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581005497553	Marionette	INFO	Listening on port 45843
+1581005497594	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5798, MediaPlayback #1] WARNING: Decoder=7fafa0623400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 5798, MediaPlayback #1] WARNING: Decoder=7fafa0623400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 5798, MediaPlayback #1] WARNING: Decoder=7fafa061fc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 5798, MediaPlayback #1] WARNING: Decoder=7fafa061fc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581005545626	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1581005589467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9M5vP0"
+1581005590255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581005590256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581005590256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581005590256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581005593573	Marionette	INFO	Listening on port 35753
+1581005593594	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5717, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 5717, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 5717, Gecko_IOThread] WARNING: pipe error (132): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 6054, MediaPlayback #2] WARNING: Decoder=7f539a9a1000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 6054, MediaPlayback #2] WARNING: Decoder=7f539a9a1000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581005618865	Marionette	INFO	Stopped listening on port 45843
+[Child 6054, MediaPlayback #2] WARNING: Decoder=7f539e793c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 6054, MediaPlayback #2] WARNING: Decoder=7f539e793c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5978, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 5978, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581005723747	Marionette	INFO	Stopped listening on port 35753
+1581005962941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMBrZ5i"
+1581005963747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581005963748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581005963748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581005963748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581005967067	Marionette	INFO	Listening on port 39167
+1581005967158	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6532, MediaPlayback #4] WARNING: Decoder=7fae6b38ec00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 6532, MediaPlayback #3] WARNING: Decoder=7fae6dfa2000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 6532, MediaPlayback #4] WARNING: Decoder=7fae6b38ec00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 6532, MediaPlayback #3] WARNING: Decoder=7fae6dfa2000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6456, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 6456, Gecko_IOThread] WARNING: pipe error (135): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581006070417	Marionette	INFO	Stopped listening on port 39167
+1581006076740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileK6aUuo"
+1581006077538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006077538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006077538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006077538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006080873	Marionette	INFO	Listening on port 35183
+1581006080958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581006085807	Marionette	INFO	Stopped listening on port 35183
+1581006114369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev7WSQW"
+1581006115149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006115149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006115149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006115149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006118391	Marionette	INFO	Listening on port 43529
+1581006118488	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7147, MediaPlayback #3] WARNING: Decoder=7f1ab36d9000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 7147, MediaPlayback #3] WARNING: Decoder=7f1ab36d9000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 7147, MediaPlayback #1] WARNING: Decoder=7f1ab6530400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 7147, MediaPlayback #1] WARNING: Decoder=7f1ab6530400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+[Parent 7073, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 7073, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581006230111	Marionette	INFO	Stopped listening on port 43529
+1581006252052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4oQH5W"
+1581006252831	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006252832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006252832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006252832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006256117	Marionette	INFO	Listening on port 36975
+1581006256171	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7396, MediaPlayback #1] WARNING: Decoder=7f57944f8400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 7396, MediaPlayback #1] WARNING: Decoder=7f57944f8400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581006351239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLXbrNt"
+1581006352048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006352049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006352049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006352049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006355477	Marionette	INFO	Listening on port 43061
+1581006355557	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7320, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 7320, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581006363112	Marionette	INFO	Stopped listening on port 36975
+[Child 7619, MediaPlayback #2] WARNING: Decoder=7efcfa65e800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 7619, MediaPlayback #2] WARNING: Decoder=7efcfa65e800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581006401032	Marionette	INFO	Stopped listening on port 43061
+[Parent 7543, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581006433154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8uISEu"
+1581006433912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006433913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006433913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006433913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006437132	Marionette	INFO	Listening on port 37053
+1581006437175	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7854, MediaPlayback #2] WARNING: Decoder=7f3e0a058c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 7854, MediaPlayback #2] WARNING: Decoder=7f3e0a058c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 7854, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 7779, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581006525181	Marionette	INFO	Stopped listening on port 37053
+1581006677871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWFk7Eb"
+1581006678677	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006678678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006678678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006678678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006682031	Marionette	INFO	Listening on port 46495
+1581006682087	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8223, MediaPlayback #1] WARNING: Decoder=7f8dcc7f0c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 8223, MediaPlayback #1] WARNING: Decoder=7f8dcc7f0c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+[Parent 8147, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581006828860	Marionette	INFO	Stopped listening on port 46495
+1581006851375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyDIbsA"
+1581006852143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581006852143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581006852143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581006852144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581006855349	Marionette	INFO	Listening on port 46585
+1581006855387	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8527, MediaPlayback #3] WARNING: Decoder=7fd505874800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 8527, MediaPlayback #3] WARNING: Decoder=7fd505874800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581006912583	Marionette	INFO	Stopped listening on port 46585
+1581007045651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRR1suU"
+1581007046487	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581007046488	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581007046488	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581007046488	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581007049849	Marionette	INFO	Listening on port 45231
+1581007049883	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8776, MediaPlayback #2] WARNING: Decoder=7f58d0b19000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 8776, MediaPlayback #2] WARNING: Decoder=7f58d0b19000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Parent 8701, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 8701, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 8701, Gecko_IOThread] WARNING: pipe error (107): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581007134290	Marionette	INFO	Stopped listening on port 45231
+1581007146119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledkWvFM"
+1581007147015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581007147015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581007147015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581007147015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581007150790	Marionette	INFO	Listening on port 39641
+1581007150836	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9065, MediaPlayback #2] WARNING: Decoder=7f4cc47c3400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 9065, MediaPlayback #2] WARNING: Decoder=7f4cc47c3400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+[Parent 8991, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581007329784	Marionette	INFO	Stopped listening on port 39641
+1581007414481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6042oZ"
+1581007415320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581007415321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581007415321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581007415321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581007418907	Marionette	INFO	Listening on port 39371
+1581007418996	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9472, MediaPlayback #2] WARNING: Decoder=7f7d73bd4800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 9472, MediaPlayback #2] WARNING: Decoder=7f7d73bd4800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 9394, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581007606566	Marionette	INFO	Stopped listening on port 39371
+1581007661021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1jVPwU"
+Traceback (most recent call last):
+  File "/usr/bin/lsb_release", line 20, in <module>
+    from optparse import OptionParser
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1280, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1252, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1368, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1408, in _fill_cache
+KeyboardInterrupt
+1581007688821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeqQJM9"
+1581007689598	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581007689598	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581007689599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581007689599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581007692863	Marionette	INFO	Listening on port 33441
+1581007692940	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10018, MediaPlayback #1] WARNING: Decoder=7f03f5d31c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10018, MediaPlayback #1] WARNING: Decoder=7f03f5d31c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581007722253	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+[Parent 9943, Gecko_IOThread] WARNING: pipe error (131): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581007795710	Marionette	INFO	Stopped listening on port 33441
+1581007814586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8B2V1D"
+1581007815468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581007815468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581007815468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581007815469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581007818857	Marionette	INFO	Listening on port 35871
+1581007818909	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10255, MediaPlayback #2] WARNING: Decoder=7f4c56aad000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10255, MediaPlayback #2] WARNING: Decoder=7f4c56aad000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1581007906029	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10179, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 10179, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 10179, Gecko_IOThread] WARNING: pipe error (126): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581007994909	Marionette	INFO	Stopped listening on port 35871
+1581008011544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1D5uCg"
+1581008012378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581008012378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581008012379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581008012379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1581008021041	Marionette	INFO	Listening on port 36293
+1581008021121	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10534, MediaPlayback #1] WARNING: Decoder=7f68eebed800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10534, MediaPlayback #1] WARNING: Decoder=7f68eebed800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+[Parent 10457, Gecko_IOThread] WARNING: pipe error (108): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1581008111727	Marionette	INFO	Stopped listening on port 36293
