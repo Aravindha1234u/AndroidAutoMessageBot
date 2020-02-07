@@ -5,8 +5,13 @@ Automated Android text messaging bot that uses android web messaging feature to 
 ## Installation
 
 ```
-git clone https://github.com/adithyan-ak/AndroidAutoMessageBot
+git clone https://github.com/aravindha1234u/AndroidAutoMessageBot
 ```
+The Bot Required Browser Driver.
+
+* If already installed then skip,
+type chmod +x geckodriver.sh
+run './geckodriver.sh' or 'sh geckodriver.sh'
 
 ## Recommended Python Version:
 
