@@ -2,6 +2,8 @@
 
 Automated Android text messaging bot that uses android web messaging feature to send automated reply messages to multiple contacts for a particular interval.
 
+Creator and Founder : [ADITHYAN AK](https://github.com/adithyan-ak)
+
 ## Installation
 
 ```
@@ -10,8 +12,11 @@ git clone https://github.com/aravindha1234u/AndroidAutoMessageBot
 The Bot Required Browser Driver.
 
 * If already installed then skip,
+
 type chmod +x geckodriver.sh
+```
 run './geckodriver.sh' or 'sh geckodriver.sh'
+```
 
 ## Recommended Python Version:
 
@@ -67,6 +72,7 @@ AndroidMessageBot is licensed under the GNU GPL license. take a look at the [LIC
 
 
 ## Version
-**Current version is 1.0**
+**Current version is 1.1**
 
-## Forked by Aravindha1234u
+## Forked by 
+**Aravindha1234u**
